@@ -1,3 +1,12 @@
+module Shapes
+( Point(..)
+, Shape(..)
+, area
+, nudge
+, baseCircle
+, baseRect
+ ) where
+
 data Shape = Circle Float Float Float |
              Rectangle Float Float Float Float
              deriving (Show)
@@ -45,3 +54,4 @@ baseRect width height = Rectangle' (Point 0 0) (Point width height)
 
 nudged' = nudge (baseCircle 5) 10 20
 nudged'' = nudge (baseRect 40 100) 60 23
+
