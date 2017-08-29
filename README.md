@@ -1,2 +1,2 @@
 # haskell_examples
-Haskell examples
+Haskell examples 
