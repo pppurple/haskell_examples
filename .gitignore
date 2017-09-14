@@ -1,0 +1,7 @@
+# haskell binary
+*.o
+*.hi
+
+# template file
+template.hs
+
