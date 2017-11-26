@@ -1,3 +1,5 @@
+import  Data.List
+
 numberOfLines :: String -> Int
 numberOfLines cs = length $ lines cs
 
