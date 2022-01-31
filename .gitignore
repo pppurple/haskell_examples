@@ -1,6 +1,7 @@
 # haskell binary
 *.o
 *.hi
+*.exe
 
 .stack-work/
 
