@@ -2,6 +2,8 @@
 *.o
 *.hi
 
+.stack-work/
+
 # template file
 template.hs
 
